@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+background: linear-gradient(180deg, rgb(72, 72, 230) 0%, rgb(72, 72, 230) 40%, rgba(255,255,255,1) 40%);
+width:auto;
+}
+.container-nav{
+    display:flex;
+    margin-top: 10px;
+    height: auto;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: white;
+    /* color: #fff; */
+    height: auto;
+    margin-left: 50px;
+    width: 200px;
+    transition: all 0.5s;
+    border-radius: 15px;
+    border-bottom: none;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 198px;
+    top: 40px;
+    color:black;
+    font-size: 30px;
+    color: white;
+
+}
+.link{
+    margin:15px 4px 15px 4px;
+    display: flex;
+    color: black;
+    padding: 10px 15px;
+    gap: 50px;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.link:hover{
+    background:blue;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.active{
+    background: blue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 15px;
+}
+
+.upperRow {
+    margin-left:50px;
+    margin-top: 50px;
+}
+.upperRowText {
+    font-weight:medium;
+    font-size: 15px;
+    margin-bottom:5px;
+}
+.upperRowItem {
+    width: 20%;
+}
+.bold{
+    font-weight: bold;
+}
+.large{
+    font-weight: bold;
+    font-size:25px;
+    margin-right: 20px;
+}
+.today{
+    width:90%;
+}
+form{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin:3px;
+}
+.flex-row {
+    width:30%;
+}
+.textRow{
+    display: flex;
+    justify-content:space-between;
+    font-weight: light;
+    font-color:grey;
+    font-variant: bold;
+}
+.iconBasket{
+    height:40px;
+    width:40px;
+    background:grey;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+}
+.iconReact{
+    height:40px;
+    width:40px;
+    background:orange;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+}
+.iconThumbsUp{
+    height:40px;
+    width:40px;
+    background:green;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+}
+.iconDelivery{
+    height:40px;
+    width:40px;
+    background:blue;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+}
+.iconShirt{
+    height:40px;
+    width:40px;
+    background:grey;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+    margin-top:30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.iconHat{
+    height:40px;
+    width:40px;
+    background:grey;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+    margin-top:30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.iconShoe{
+    height:40px;
+    width:40px;
+    background:grey;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top:10px;
+    border-radius:25%;
+    font-weight: bold;
+    margin-top:30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.color-border-yellow {
+    border-style:solid;
+    border-color: transparent;
+    border-left-color: yellow;
+    border-left-width: 7px;
+}
+.color-border-red {
+    border-style:solid;
+    border-color: transparent;
+    border-left-color: red;
+    border-left-width: 7px;
+}
+.color-border-grey{
+    border-style:solid;
+    border-color: transparent;
+    border-left-color: grey;
+    border-left-width: 7px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .upperRowItem {
+    width: 90%;
+}
+.flex-row {
+    width:90%;
+}
+
+}
+@media only screen and (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+  .upperRowItem {
+    width: 90%;
+}
+.flex-row {
+    width:90%;
+}
+
+}
+
+
+
+
+
+
+
