@@ -17,7 +17,7 @@ main{
     padding: 20px;
 }
 .sidebar{
-    background: white;
+    background: #ffffff;
     /* color: #fff; */
     height: auto;
     margin-left: 50px;
@@ -40,9 +40,9 @@ main{
     top: 0px;
     left: 198px;
     top: 40px;
-    color:black;
+    color:#000000;
     font-size: 30px;
-    color: white;
+    color: #ffffff;
 
 }
 .link{
@@ -55,13 +55,13 @@ main{
     border-radius: 8px;
 }
 .link:hover{
-    background:blue;
+    background:#0000ff;
     color: #000;
     transition: all 0.5s;
 }
 
 .active{
-    background: blue;
+    background: #0000ff;
     color: #000;
 }
 .icon, .link_text{
@@ -104,14 +104,14 @@ form{
     display: flex;
     justify-content:space-between;
     font-weight: light;
-    font-color:grey;
+    font-color:#808080;
     font-variant: bold;
 }
 .iconBasket{
     height:40px;
     width:40px;
-    background:grey;
-    color: white;
+    background:#808080;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -120,8 +120,8 @@ form{
 .iconReact{
     height:40px;
     width:40px;
-    background:orange;
-    color: white;
+    background:#ffa500;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -131,8 +131,8 @@ form{
 .iconThumbsUp{
     height:40px;
     width:40px;
-    background:green;
-    color: white;
+    background:#008000;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -142,8 +142,8 @@ form{
 .iconDelivery{
     height:40px;
     width:40px;
-    background:blue;
-    color: white;
+    background:#0000ff;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -153,8 +153,8 @@ form{
 .iconShirt{
     height:40px;
     width:40px;
-    background:grey;
-    color: white;
+    background:#808080;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -167,8 +167,8 @@ form{
 .iconHat{
     height:40px;
     width:40px;
-    background:grey;
-    color: white;
+    background:#808080;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -181,8 +181,8 @@ form{
 .iconShoe{
     height:40px;
     width:40px;
-    background:grey;
-    color: white;
+    background:#808080;
+    color: #ffffff;
     text-align: center;
     font-size:20px;
     padding-top:10px;
@@ -195,19 +195,19 @@ form{
 .color-border-yellow {
     border-style:solid;
     border-color: transparent;
-    border-left-color: yellow;
+    border-left-color: #ffff00;
     border-left-width: 7px;
 }
 .color-border-red {
     border-style:solid;
     border-color: transparent;
-    border-left-color: red;
+    border-left-color: #ff0000;
     border-left-width: 7px;
 }
 .color-border-grey{
     border-style:solid;
     border-color: transparent;
-    border-left-color: grey;
+    border-left-color: #808080;
     border-left-width: 7px;
 }
 
