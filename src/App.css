@@ -195,13 +195,13 @@ form{
 .color-border-yellow {
     border-style:solid;
     border-color: transparent;
-    border-left-color: #ffff00;
+    border-left-color: orange;
     border-left-width: 7px;
 }
 .color-border-red {
     border-style:solid;
     border-color: transparent;
-    border-left-color: #ff0000;
+    border-left-color: rgb(240, 77, 104);
     border-left-width: 7px;
 }
 .color-border-grey{
